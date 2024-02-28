@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:test_exercise/injector.dart';
-import 'package:test_exercise/presentation/pages/home/home_page.dart';
+import 'package:webspark_exercise/injector.dart';
+import 'package:webspark_exercise/presentation/pages/home/home_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

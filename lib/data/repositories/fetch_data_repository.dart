@@ -1,9 +1,9 @@
 import 'package:dartz/dartz.dart';
-import 'package:test_exercise/core/api/app_api.dart';
-import 'package:test_exercise/core/error/failures.dart';
-import 'package:test_exercise/data/models/sended_data_response.dart';
-import 'package:test_exercise/data/models/fetch_data_response.dart';
-import 'package:test_exercise/domain/repositories/fetch_data_repository.dart';
+import 'package:webspark_exercise/core/api/app_api.dart';
+import 'package:webspark_exercise/core/error/failures.dart';
+import 'package:webspark_exercise/data/models/sended_data_response.dart';
+import 'package:webspark_exercise/data/models/fetch_data_response.dart';
+import 'package:webspark_exercise/domain/repositories/fetch_data_repository.dart';
 
 
 class FetchDataRepositoryImpl implements FetchDataRepository {

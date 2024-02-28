@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:test_exercise/core/utils/constants.dart';
-import 'package:test_exercise/presentation/pages/home/widgets/url_text_field.dart';
-import 'package:test_exercise/presentation/pages/home/widgets/start_button.dart';
-import 'package:test_exercise/presentation/pages/progress/progress_page.dart';
+import 'package:webspark_exercise/core/utils/constants.dart';
+import 'package:webspark_exercise/presentation/pages/home/widgets/url_text_field.dart';
+import 'package:webspark_exercise/presentation/pages/home/widgets/start_button.dart';
+import 'package:webspark_exercise/presentation/pages/progress/progress_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

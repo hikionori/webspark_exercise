@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:test_exercise/core/utils/constants.dart';
-import 'package:test_exercise/presentation/pages/progress/widgets/loading_state_widget.dart';
+import 'package:webspark_exercise/core/utils/constants.dart';
+import 'package:webspark_exercise/presentation/pages/progress/widgets/loading_state_widget.dart';
 
 import 'cubit/progress_cubit.dart';
 

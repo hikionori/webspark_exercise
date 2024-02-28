@@ -1,14 +1,14 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:test_exercise/core/error/failures.dart';
-import 'package:test_exercise/core/usecases/usecases.dart';
-import 'package:test_exercise/core/utils/algoritms.dart';
-import 'package:test_exercise/data/models/fetch_data_response.dart';
-import 'package:test_exercise/domain/usecases/fetch_data_usecase.dart';
-import 'package:test_exercise/domain/usecases/send_data_usecase.dart';
-import 'package:test_exercise/injector.dart';
-import 'package:test_exercise/presentation/pages/result/list_view_results.dart';
+import 'package:webspark_exercise/core/error/failures.dart';
+import 'package:webspark_exercise/core/usecases/usecases.dart';
+import 'package:webspark_exercise/core/utils/algoritms.dart';
+import 'package:webspark_exercise/data/models/fetch_data_response.dart';
+import 'package:webspark_exercise/domain/usecases/fetch_data_usecase.dart';
+import 'package:webspark_exercise/domain/usecases/send_data_usecase.dart';
+import 'package:webspark_exercise/injector.dart';
+import 'package:webspark_exercise/presentation/pages/result/list_view_results.dart';
 
 
 part 'progress_state.dart';

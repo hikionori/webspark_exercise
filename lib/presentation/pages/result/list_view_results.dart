@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:test_exercise/core/utils/constants.dart';
-import 'package:test_exercise/presentation/pages/result/result_grid_page.dart';
+import 'package:webspark_exercise/core/utils/constants.dart';
+import 'package:webspark_exercise/presentation/pages/result/result_grid_page.dart';
 
 class ListViewResults extends StatelessWidget {
   final List<Map<String, dynamic>> items;

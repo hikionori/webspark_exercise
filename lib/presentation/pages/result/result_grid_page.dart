@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:test_exercise/core/utils/constants.dart';
-import 'package:test_exercise/core/utils/parsers.dart';
+import 'package:webspark_exercise/core/utils/constants.dart';
+import 'package:webspark_exercise/core/utils/parsers.dart';
 
 class ResultGridPage extends StatelessWidget {
   final Map<String, dynamic> pathData;

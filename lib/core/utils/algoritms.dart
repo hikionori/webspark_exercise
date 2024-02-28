@@ -1,6 +1,6 @@
 import 'dart:collection';
 
-import 'package:test_exercise/data/models/fetch_data_response.dart';
+import 'package:webspark_exercise/data/models/fetch_data_response.dart';
 
 class BFS {
   List<List<String>> field;

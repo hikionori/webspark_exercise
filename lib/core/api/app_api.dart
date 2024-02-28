@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:test_exercise/data/models/sended_data_response.dart';
-import 'package:test_exercise/data/models/fetch_data_response.dart';
+import 'package:webspark_exercise/data/models/sended_data_response.dart';
+import 'package:webspark_exercise/data/models/fetch_data_response.dart';
 
 class AppApi {
   static const String baseUrl = 'https://flutter.webspark.dev/flutter/api';

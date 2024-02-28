@@ -1,6 +1,6 @@
 import 'package:dartz/dartz.dart';
 import 'package:equatable/equatable.dart';
-import 'package:test_exercise/core/error/failures.dart';
+import 'package:webspark_exercise/core/error/failures.dart';
 
 
 abstract class UseCase<Type, Params> {
