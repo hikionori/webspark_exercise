@@ -10,7 +10,7 @@ class FetchDataRepositoryImpl implements FetchDataRepository {
   FetchDataRepositoryImpl(this.remoteClient);
 
   @override
-  late final AppApi remoteClient;
+  late final APIHelper remoteClient;
 
   @override
   Future<Either<Failure, FetchDataResponse>> getData() async {

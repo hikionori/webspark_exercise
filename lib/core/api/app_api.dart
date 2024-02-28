@@ -2,14 +2,14 @@ import 'package:dio/dio.dart';
 import 'package:webspark_exercise/data/models/sended_data_response.dart';
 import 'package:webspark_exercise/data/models/fetch_data_response.dart';
 
-class AppApi {
+class APIHelper {
   static const String baseUrl = 'https://flutter.webspark.dev/flutter/api';
 
   final Dio _dio;
 
   Dio get dio => _dio;
 
-  AppApi(this._dio);
+  APIHelper(this._dio);
 
   Future<FetchDataResponse> fetchData() async {
     try {

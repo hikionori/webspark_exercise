@@ -14,6 +14,6 @@ void setup() {
   getIt.registerLazySingleton<FetchDataRepository>(() => FetchDataRepositoryImpl(getIt()));
 
   getIt.registerLazySingleton<Dio>(() => Dio());
-  getIt.registerLazySingleton<AppApi>(() => AppApi(getIt<Dio>()));
+  getIt.registerLazySingleton<APIHelper>(() => APIHelper(getIt<Dio>()));
 
 }

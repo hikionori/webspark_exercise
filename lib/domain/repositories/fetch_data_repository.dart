@@ -5,7 +5,7 @@ import 'package:webspark_exercise/data/models/sended_data_response.dart';
 import 'package:webspark_exercise/data/models/fetch_data_response.dart';
 
 abstract interface class FetchDataRepository {
-  final AppApi remoteClient;
+  final APIHelper remoteClient;
 
   FetchDataRepository(this.remoteClient);
 
