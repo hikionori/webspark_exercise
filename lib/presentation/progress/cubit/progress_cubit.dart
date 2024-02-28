@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:webspark_exercise/core/error/failures.dart';
 import 'package:webspark_exercise/core/usecases/usecases.dart';
-import 'package:webspark_exercise/core/utils/algoritms.dart';
+import 'package:webspark_exercise/core/utils/algoritm.dart';
 import 'package:webspark_exercise/data/models/fetch_data_response.dart';
 import 'package:webspark_exercise/domain/usecases/fetch_data_usecase.dart';
 import 'package:webspark_exercise/domain/usecases/send_data_usecase.dart';
