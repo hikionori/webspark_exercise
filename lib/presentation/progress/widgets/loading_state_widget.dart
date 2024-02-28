@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:webspark_exercise/core/utils/constants.dart';
-import 'package:webspark_exercise/presentation/pages/progress/cubit/progress_cubit.dart';
+import 'package:webspark_exercise/presentation/progress/cubit/progress_cubit.dart';
 
 class LoadingStateWidget extends StatelessWidget {
   final ProgressState state;

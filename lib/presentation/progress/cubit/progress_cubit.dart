@@ -7,8 +7,8 @@ import 'package:webspark_exercise/core/utils/algoritms.dart';
 import 'package:webspark_exercise/data/models/fetch_data_response.dart';
 import 'package:webspark_exercise/domain/usecases/fetch_data_usecase.dart';
 import 'package:webspark_exercise/domain/usecases/send_data_usecase.dart';
-import 'package:webspark_exercise/injector.dart';
-import 'package:webspark_exercise/presentation/pages/result/list_view_results.dart';
+import 'package:webspark_exercise/core/injector.dart';
+import 'package:webspark_exercise/presentation/result/list_view_results.dart';
 
 
 part 'progress_state.dart';
